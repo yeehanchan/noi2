@@ -109,7 +109,7 @@ class UserForm(ModelForm):  #pylint: disable=no-init,too-few-public-methods
     class Meta:  #pylint: disable=no-init,missing-docstring,old-style-class,too-few-public-methods
         model = User
         only = ['first_name', 'last_name', 'position', 'organization',
-                'organization_type', 'city', 'country', 'projects']
+                'organization_type', 'program', 'city', 'country', 'projects']
         field_args = {
             'first_name': {
                 'validators': [Required()]

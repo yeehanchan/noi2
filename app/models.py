@@ -4,8 +4,7 @@ NoI Models
 SQLAlchemy models for the app
 '''
 
-from app import (ORG_TYPES, VALID_SKILL_LEVELS, LEVELS, QUESTIONNAIRES,
-                 QUESTIONNAIRES_BY_ID, QUESTIONS_BY_ID)
+from app import (ORG_TYPES, PROGRAM_TYPES, VALID_SKILL_LEVELS, LEVELS, QUESTIONNAIRES,QUESTIONNAIRES_BY_ID, QUESTIONS_BY_ID)
 from app.utils import UserSkillMatch
 
 from flask import current_app
@@ -128,11 +127,19 @@ class User(db.Model, UserMixin, DeploymentMixin): #pylint: disable=no-init,too-f
     organization = Column(types.String, info={
         'label': lazy_gettext('Organization'),
     })
+
     organization_type = Column(types.String, info={
         'label': lazy_gettext('Type of Organization'),
         'description': lazy_gettext('The type of organization you work for'),
         'choices': [(k, v) for k, v in ORG_TYPES.iteritems()]
     })
+
+    #add a new field
+    program = Column(types.String, info={
+        'label': lazy_gettext('Program'),
+        'choices': [(k,v) for k, v in PROGRAM_TYPES.iteritems()]
+    })
+
     country = Column(CountryType, info={
         'label': lazy_gettext('Country'),
     })

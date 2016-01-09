@@ -5,6 +5,7 @@ Creates globals
 '''
 
 from flask_alchemydumps import AlchemyDumps
+#from flask.ext.alchemydumps import AlchemyDumps
 from flask_assets import Bundle, Environment
 from flask_security import Security
 from flask_cache import Cache
@@ -93,6 +94,12 @@ ORG_TYPES = {'edu': 'Academia',
              'org': 'Non Profit',
              'gov': 'Government',
              'other': 'Other'}
+
+PROGRAM_TYPES = {'cs': 'Computer Science', 
+                 'cm': 'Connective Media', 
+                 'ht': 'Health Tech', 
+                 'mba': 'MBA'}
+
 
 # Process YAML files
 MIN_QUESTIONS_TO_JOIN = 3
