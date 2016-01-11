@@ -98,7 +98,8 @@ ORG_TYPES = {'edu': 'Academia',
 PROGRAM_TYPES = {'cs': 'Computer Science', 
                  'cm': 'Connective Media', 
                  'ht': 'Health Tech', 
-                 'mba': 'MBA'}
+                 'mba': 'MBA',
+                 'none': 'None'}
 
 
 # Process YAML files

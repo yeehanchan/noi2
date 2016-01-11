@@ -73,7 +73,8 @@ CountryField._get_choices = _get_choices
 class RegisterStep2Form(ModelForm):
     class Meta:  #pylint: disable=no-init,missing-docstring,old-style-class,too-few-public-methods
         model = User
-        only = ['position', 'organization', 'country']
+        #only = ['position', 'organization', 'country']
+        only = ['position','program']
 
     @classmethod
     def is_not_empty(cls, user):
