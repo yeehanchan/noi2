@@ -61,6 +61,35 @@ Unfortunately, because Docker Compose isn't currently available for
 Windows at the time of this writing, the only way to develop NoI is
 to set up a Linux virtual machine using a tool like [VirtualBox][].
 
+### Database Inspection
+
+* with psql:
+```	
+	docker-compose run db psql -h db -p 5432 -U postgres -d postgres
+```
+
+* with python and sqlalchemy:
+```
+	docker-compose run app python
+```
+```python
+
+	from app.models import db
+
+	from sqlalchemy import create_engine
+
+	from sqlalchemy.orm import sessionmaker
+
+	engine = create_engine('postgres://postgres:@db:5432/postgres')
+
+	Session = sessionmaker(bind=engine)
+
+	session = Session()
+```
+
+start querying with `session.query()`
+
+
 ### Database migrations
 
 Whenever you make changes to `model.py`, you will need to generate a migration
