@@ -101,6 +101,8 @@ PROGRAM_TYPES = {'cs': 'Computer Science',
                  'mba': 'MBA',
                  'none': 'None'}
 
+EMAIL_VALIDATION = r"(^[a-zA-Z0-9_.+-]+@cornell.edu$)"
+
 
 # Process YAML files
 MIN_QUESTIONS_TO_JOIN = 3

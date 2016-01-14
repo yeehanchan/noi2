@@ -2,7 +2,7 @@
 NoI forms
 '''
 
-from app import LOCALES, QUESTIONNAIRES, LEVELS, l10n
+from app import LOCALES, QUESTIONNAIRES, LEVELS, l10n, EMAIL_VALIDATION
 from app.models import User
 
 from flask import current_app
@@ -23,7 +23,7 @@ from wtforms import StringField, PasswordField, BooleanField, SubmitField
 from wtforms.fields import (SelectMultipleField, TextField, TextAreaField,
                             SelectField)
 from wtforms.widgets import Select
-from wtforms.validators import ValidationError, Required
+from wtforms.validators import ValidationError, Required, Regexp
 
 import re
 
@@ -228,7 +228,8 @@ class NOILoginForm(LoginForm):
     Localizeable version of Flask-Security's LoginForm
     '''
 
-    email = StringField(lazy_gettext('Email'))
+    email = StringField(lazy_gettext('Email'),
+                        validators=[Regexp(EMAIL_VALIDATION, message='please use your cornell mail')])
     password = PasswordField(lazy_gettext('Password'))
     remember = BooleanField(lazy_gettext('Remember Me'))
     submit = SubmitField(lazy_gettext('Log in'))
@@ -251,7 +252,10 @@ class NOIRegisterForm(RegisterForm):
 
     email = StringField(
         lazy_gettext('Email'),
-        validators=[email_required, email_validator, unique_user_email])
+        validators=[email_required, email_validator, 
+                    unique_user_email, 
+                    Regexp(EMAIL_VALIDATION, message='please use your cornell mail')])
+
     password = PasswordField(
         lazy_gettext('Password'), validators=[password_required,
                                               password_length])
