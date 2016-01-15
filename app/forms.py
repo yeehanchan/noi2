@@ -169,16 +169,16 @@ class SearchForm(Form):
         ],
         default='ZZ'
     )
-    country = CountryField()
-    locale = CallableChoicesSelectField(
-        choices=lambda: [
-            ('ZZ', lazy_gettext('Choose a language'))
-        ] + [
-            (l.language, l.get_language_name(get_locale()))
-             for l in LOCALES
-        ],
-        default='ZZ'
-    )
+    # country = CountryField()
+    # locale = CallableChoicesSelectField(
+    #     choices=lambda: [
+    #         ('ZZ', lazy_gettext('Choose a language'))
+    #     ] + [
+    #         (l.language, l.get_language_name(get_locale()))
+    #          for l in LOCALES
+    #     ],
+    #     default='ZZ'
+    # )
     expertise_domain_name = CallableChoicesSelectField(
         choices=lambda: [
             ('ZZ', lazy_gettext('Choose a field of work'))

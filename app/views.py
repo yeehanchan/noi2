@@ -540,12 +540,12 @@ def search():
             # Add fake rank of 0 for now
             query = query.add_column('0')
 
-        if form.country.data and form.country.data != 'ZZ':
-            query = query.filter(User.country == form.country.data)
+        # if form.country.data and form.country.data != 'ZZ':
+        #     query = query.filter(User.country == form.country.data)
 
-        if form.locale.data and form.locale.data != 'ZZ':
-            query = query.join(User.languages).filter(UserLanguage.locale.in_(
-                [form.locale.data]))
+        # if form.locale.data and form.locale.data != 'ZZ':
+        #     query = query.join(User.languages).filter(UserLanguage.locale.in_(
+        #         [form.locale.data]))
 
         if (form.expertise_domain_name.data and
             form.expertise_domain_name.data != 'ZZ'):
@@ -560,7 +560,7 @@ def search():
             query = query.filter(or_(
                 User.first_name.ilike(ftquery),
                 User.last_name.ilike(ftquery),
-                User.organization.ilike(ftquery),
+                # User.organization.ilike(ftquery),
                 User.position.ilike(ftquery),
                 User.projects.ilike(ftquery),
                 (User.first_name + ' ' + User.last_name).ilike(ftquery)
