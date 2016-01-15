@@ -43,16 +43,14 @@ b-public-profile
 
 
 
-           {% if user.program %}
-               <li><span class="material-icons">school</span>{{ user.program }}</li>
+           {% if program %}
+               <li><span class="material-icons">school</span>{{ program }}</li>
            {% endif %}
 
            
 
            {% if user.expertise_domain_names %}
-             {% for domain in user.expertise_domain_names[0] %}
-               <li><span class="material-icons">school</span>{{ domain }}</li>
-             {% endfor %}
+               <li><span class="material-icons">school</span>{{ user.expertise_domain_names[0] }}</li>
            {% endif %}
         </ul>
     </div>

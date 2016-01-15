@@ -10,7 +10,7 @@ from flask_babel import lazy_gettext, gettext
 from flask_login import login_required, current_user
 
 from app import (QUESTIONNAIRES_BY_ID, MIN_QUESTIONS_TO_JOIN, LEVELS, l10n,
-                 LEVELS_BY_SCORE, mail, stats, cache)
+                 LEVELS_BY_SCORE, PROGRAM_TYPES, mail, stats, cache)
 from app.models import (db, User, UserLanguage, UserExpertiseDomain,
                         UserSkill, Event, SharedMessageEvent, Email,
                         skills_to_percentages)
@@ -323,6 +323,7 @@ def render_user_profile(userid=None, **kwargs):
         reverse=True
     )
 
+    kwargs['program'] = PROGRAM_TYPES[user.program]
     return render_template('user-profile.html', **kwargs)
 
 
