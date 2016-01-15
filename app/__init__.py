@@ -5,7 +5,6 @@ Creates globals
 '''
 
 from flask_alchemydumps import AlchemyDumps
-#from flask.ext.alchemydumps import AlchemyDumps
 from flask_assets import Bundle, Environment
 from flask_security import Security
 from flask_cache import Cache

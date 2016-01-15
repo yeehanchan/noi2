@@ -37,23 +37,21 @@ b-public-profile
         <h3 class="e-job">{{ user.position }}</h3>
 
         <ul class="e-info">
-           {% if user.organization %}
-             <li><span class="material-icons">business</span>{{ user.organization }}</li> 
+           {% if user.position %}
+             <li><span class="material-icons">business</span>{{ user.position }}</li> 
            {% endif %}
+
+
+
+           {% if user.program %}
+               <li><span class="material-icons">school</span>{{ user.program }}</li>
+           {% endif %}
+
+           
 
            {% if user.expertise_domain_names %}
-             {% for domain in user.expertise_domain_names %}
+             {% for domain in user.expertise_domain_names[0] %}
                <li><span class="material-icons">school</span>{{ domain }}</li>
-             {% endfor %}
-           {% endif %}
-
-           {% if user.full_location %}
-           <li><span class="material-icons">location_on</span>{{ user.full_location }}</li> 
-           {% endif %}
-
-           {% if user.locales %}
-             {% for locale in user.locales %}
-               <li>{{ locale.get_display_name(locale=get_locale()) }}</li>
              {% endfor %}
            {% endif %}
         </ul>
