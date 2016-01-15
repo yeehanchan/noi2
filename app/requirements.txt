@@ -37,3 +37,4 @@ redis
 libsass==0.8.3
 factory_boy==2.5.2
 fake-factory==0.5.3
+matplotlib==1.5.1
