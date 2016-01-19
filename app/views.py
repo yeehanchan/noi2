@@ -322,8 +322,8 @@ def render_user_profile(userid=None, **kwargs):
         key=lambda area_info: area_info['total'],
         reverse=True
     )
-
-    kwargs['program'] = PROGRAM_TYPES[user.program]
+    if user.program is not None:
+        kwargs['program'] = PROGRAM_TYPES[user.program]
     return render_template('user-profile.html', **kwargs)
 
 
