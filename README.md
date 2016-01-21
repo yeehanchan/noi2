@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/GovLab/noi2.svg?branch=master)](https://travis-ci.org/GovLab/noi2)
 
 # Network of Innovators
-
+## Interactive network visualization
 ## Quick install
 
 To get an deployment of NOI running quickly on a Linux box with Docker
