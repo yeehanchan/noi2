@@ -155,15 +155,19 @@ _default:
 
 
   questions:
-    - opendata
-    - prizes
-    - agile
-    - citizenscience
-    - rcts
-    - partnerships
-    - communityengagement
-    - crowdsourcing
-    - lab-design
+    - money
+    - hiring
+    - earlydays
+    - legal
+    - logistics
+    - seo
+    - mobiledevelopment
+    - database
+    - hardware
+    - cloud
+    - payment
+    - engineering
+    - design
     - datascience
 
 sa.networkofinnovators.org:

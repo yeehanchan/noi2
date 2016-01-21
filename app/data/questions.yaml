@@ -1,280 +1,258 @@
-- name: Open Data
-  id: opendata
+- name: Money
+  id: money
   icon: opendata.svg
   icon-color: "#E86B5F"
   description: >
-   When institutions open their data for research, analysis and reuse, it can be a powerful tool for improvement. Open data can provide the raw material to convene informed conversations about what’s broken and the empirical foundation for developing solutions.
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
   topics:
 
-    - topic: Open Data Policy
-      description: creating an open data plan and strategy to achieve key goals
+    - topic: money
+      description: money
       questions:
-        - question: Identifying what data will help my organization achieve its core mission
-          label: core mission
-        - question: Distinguishing between potentially sensitive data and non-sensitive data
-          label: sensitive vs non-sensitive
-        - question: Crafting a clear policy explaining what data to open and how
-          label: crafting an open data policy
-        - question: Doing public consultation on an open data policy
-          label: getting public input
-        - question: Getting organizational approval for opening data
-          label: getting org approval
+        - question:  Getting in touch with investors
+          label: investors
+        - question: Deciding how much money I need
+          label: amount
+        - question: Raising money at angel or seed level
+          label: angel fund
+        - question: Raising money for a series A
+          label: series A
+        - question: Raising money for a series B and beyond
+          label: series B and beyond
+        - question: Thinking about an IPO
+          label: IPO
 
-    - topic: Implementing an open data program
-      description: operationalizing an open data program in practice
-      questions:
-        - question: Scraping data from my domain
-          label: scraping open data
-        - question: Making data machine-readable
-          label: making machine-readable
-        - question: Determining what formats to publish data in
-          label: open data formats
-        - question: Determining how to license my data
-          label: open data license
-        - question: Deciding data standards to publish data in
-          label: open data standards
-        - question: Using the right infrastructure for making data available
-          label: infrastructure
-        - question: Managing an open data project
-          label: managing open data
-        - question: Determining how often datasets should be released and updated
-          label: frequency of release
-        - question: Ensuring continued data quality and integrity
-          label: data quality and integrity
 
-    - topic: Accelerating use
-      description: responding to what users need and want
-      questions:
-        - question: Creating incentives for users or the public to make productive use of the data
-          label: open-data-incentives
-        - question: Identifying and combining other sources of open data to achieve a goal
-          label: mashing-up open data
-        - question: Designing a data collaborative
-          label: data collaborative
-        - question: Expressing the value proposition of the open data datasets, including what problems can be solved with this data
-          label: value proposition
-
-    - topic: Measuring Impact
-      description: assessing effectiveness
-      questions:
-        - question: Monitoring how my data is being used
-          label: measuring open data use
-        - question: Measuring the economic and/or social impact of opening up data
-          label: measuring open data impact
-
-- name: Prizes
-  id: prizes
+- name: Hiring
+  id: hiring
   icon: prizes.svg
   icon-color: "#44A9A2"
   description: >
-   Prize-Backed Challenges offer an incentive to encourage, recognise and reward innovation. When successfully executed, prize-backed challenges and competitions can also drive the adoption of innovations across an institution.
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
   topics:
 
-    - topic: Scoping the Problem
-      description: defining the problem
+    - topic: hiring
+      description: hiring
       questions:
-        - question: Defining and expressing the problem addressed by the prize.
-          label: problem definition
-        - question: Doing rapid research to test the assumptions behind my problem definition
-          label: research
-        - question: Developing metrics to measure progress
-          label: progress metrics
+        - question: Working with a talent agency
+          label: agency
+        - question: Working with a self-service tool
+          label: self-service tool
+        - question: Starting an in-house HR department
+          label: department
+        - question: Dealing with visa for employees
+          label: employees visa
+        - question: Dealing with visa for students
+          label: students visa
+        - question: Creating internal incentives to source candidate
+          label: incentives
+        - question: Putting in place an interview process
+          label: interview
+        - question: Hiring my first employee
+          label: employee
+        - question: Hiring my first VP
+          label: VPs
 
-    - topic: Designing for a Successful Prize
-      description: Deciding if a prize is the right tool
-      questions:
-        - question: Deciding when to use a prize-backed challenge rather than other options like conventional crowdsourcing
-          label: when-to-use-a-prize
-        - question: Determining whether a prize or a grand challenge is optimal
-          label: grand challenge
-        - question: Deciding whether to use financial or non-financial incentives
-          label: prizes-incentives
-        - question: Setting the value of a prize
-          label: prize amount
 
-    - topic: Identifying the Right Audience
-      description: targeting the right participants
-      questions:
-        - question: Identifying would-be participating innovators
-          label: audience
-        - question: Assessing the potential costs involved for them in participating
-          label: costs
 
-    - topic: Mechanics
-      description: running a prize-backed challenge
-      questions:
-        - question: Funding a prize-backed challenge
-          label: funding
-        - question: Creating a plan for running the prize with defined milestones
-          label: mechanics
-        - question: Accessing outside contractors to support the design and implementation of the prizes
-          label: partnerships
-        - question: Deciding how long the prize should run
-          label: timing
-        - question: Developing a communication strategy to get the word out
-          label: communication
-        - question: Choosing from the tools available to run a prize-backed challenge
-          label: platforms
-
-    - topic: Judging
-      description: judging a prize
-      questions:
-        - question: Designing assessment criteria
-          label: judging criteria
-        - question: Selecting judges
-          label: choosing judges
-
-    - topic: Legal Concerns
-      description: overcoming legal concerns
-      questions:
-        - question: Determining ownership and copyright
-          label: ownership and copyright
-        - question: Navigating governmental endorsement and privacy concerns
-          label: legal and privacy concerns
-
-    - topic: Implementation
-      description: what to do after a challenge
-      questions:
-        - question: Translating winning entries into well-developed solutions
-          label: after the challenge
-
-- name: Agile
-  id: agile
+- name: Early Days
+  id: earlydays
   icon: agile.svg
-  description: Coming soon
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: earlydays
+      description: earlydays
+      questions:
+        - question: Finding a co-founder
+          label: co-founder
+        - question: Figuring out how to incorporate a company
+          label: incorporation
+        - question: Figuring out which company structure to pick
+          label: structure
+        - question: Allocating shares
+          label: allocation
+        - question: Defining the share's vesting structure
+          label: vesting structure
+        - question: Putting together a board of advisors
+          label: advisors
 
-- name: Citizen Science
-  id: citizenscience
+
+
+
+- name: Logistics
+  id: logistics
   icon: citizenscience.svg
   description: >
-   Citizen science refers to scientific or research tasks that are undertaken collaboratively by volunteer members of the general public, scientists or researchers. Citizen science can provide an innovative method to help do better research and accomplish difficult objectives more effectively and efficiently.
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
   topics:
-    - topic: Tasks and Goals
-      description: defining the goals of a citizen science initiative and the tasks to be completed in order to achieve them
+    - topic: logistics
+      description: logistics
       questions:
-        - question: Identifying a compelling goal for a citizen science project
-          label: compelling goal
-        - question: Identifying and defining the tasks for participants to do
-          label: define tasks
-        - question: Deciding the types of tasks to be considered when developing a citizen science project
-          label: types of tasks
-        - question: Articulating the intended outcomes of a project
-          label: intended outcomes
-        - question: Articulating how the tasks will advance a research field
-          label: advance research field
-        - question: Defining the success of a project
-          label: define success
-        - question: Measuring and evaluating the success of a project
-          label: measure success
-        - question: Defining and validating a protocol for an experiment and required data collection
-          label: validate protocol
-        - question: Defining a project in terms of time required and geographic range
-          label: time and geographic range
-        - question: Identifying funding opportunities for a project
-          label: funding opportunities
+        - question: Dealing with bookkeeping
+          label: bookkeeping
+        - question: Dealing with accounting
+          label: accounting
+        - question: Setting up benefits for employees
+          label: benefits ofr employees
+        - question: Getting some office space
+          label: space
 
-    - topic: Incentives and Motivation
-      description: developing incentives to motivate participation
-      questions:
-        - question: Engaging with and/or creating a community for participants.
-          label: community of participants
-        - question: Retaining participants
-          label: retain participants
-        - question: Addressing variations and skew in participation
-          label: variations and skew
-        - question: Scaling up participation
-          label: scale participation
-        - question: Identifying collaborators around the project
-          label: identify collaborators
-        - question: Defining and developing gamification in projects
-          label: develop gamification 
-        - question: Identifying what people are competing to do (e.g. quantity, frequency, quality of participation)
-          label: identify competition 
-        - question: Attributing contributions to the relevant parties
-          label: attribute contribution
 
-    - topic: Training
-      description: giving participants the skills and information needed to participate well
-      questions:
-        - question: Preparing individuals to participate in a project
-          label: prepare participants 
-        - question: Developing an FAQ for participants to reference throughout the process
-          label: develop faq
-        - question: Preparing people within my institution to make use of citizen scientists’ input
-          label: prepare within institution
-        - question: Assessing data quality
-          label: data quality 
-        - question: Designing or adapting protocols to assure high quality data
-          label: protocols high quality data
-        - question: Identifying, choosing and recruiting participants capable of contributing high quality data
-          label: high quality participants
-
-    - topic: Platforms and Tools
-      description: deciding upon and using citizen science platforms and tools
-      questions:
-        - question: Identifying and deciding on the optimal platform for sharing data submitted by participants, in a way that helps them interpret the data
-          label: platform interpret data
-        - question: Identifying and deciding on the optimal platform for sharing data submitted by participants, with other researchers or data hubs
-          label: platform for researchers
-        - question: Evaluating and implementing the appropriate use of technology for collecting and reporting data given the task I am asking people to do
-          label: technology for collecting and reporting data
-        - question: Interpreting data being collected before the project has been completed
-          label: interpret data before
-        - question: Interpreting data collected when the project has been completed
-          label: interpret data after
-        - question: Archiving data
-          label: archive data
-
-    - topic: Decision Making
-      description: using input gained through citizen science to drive decision making
-      questions:
-        - question: Identifying the societal relevance of your project
-          label: societal relevance
-        - question: 'Translating the outcomes of the project into desired changes: (government, institutional, societal)'
-          label: translate outcomes
-    - topic: Legal Questions
-      description: legal concerns and barriers related to citizen science initiatives
-      questions:
-        - question: Identifying and mitigating privacy concerns relating to data collected
-          label: privacy concerns
-        - question: Ensuring COPPA compliance in projects featuring minors
-          label: coppa compliance
-        - question: Identifying considerations related to participants sharing their locations
-          label: considerations locations
-        - question: Asking people to license their contributions
-          label: license contributions
-        - question: Licensing data that is going to be published
-          label: license published data
-        - question: Drafting a data policy
-          label: draft data policy
-        - question: Drafting a privacy policy
-          label: draft privacy policy
-        - question: Drafting other liability policies and educating potential participants about privacy issues
-          label: draft liability policies
-
-    - topic: Communicating Results and Sustaining Projects
-      description: communicating project results to participants and the public, and ensuring that projects continue after initial the engagement
-      questions:
-        - question: Communicating results and milestones to participants
-          label: results and milestones
-        - question: Identifying avenues for publishing results
-          label: avenues publishing results
-        - question: Determining when to publish results
-          label: when publish results
-        - question: Ensuring sustainability of project management
-          label: sustainability of project management
-        - question: Identifying funding opportunities to sustain a project
-          label: funding opportunities
-
-- name: Nudges
-  id: nudges
+- name: Legal
+  id: legal
   icon: nudges.svg
-  description: Coming soon
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: legal
+      description: legal
+      questions:
+        - question: Drafting an NDA
+          label: NDA
+        - question: Deciding to patent
+          label: patent
+        - question: Drafting a patent
+          label: patent2
+        - question: Handling a cease and desist
+          label: cease and desist
+        - question: Handling a patent dispute
+          label: dispute 
+        - question: Firing a co-founder
+          label: co-founder
 
-- name: Partnerships
-  id: partnerships
+
+- name: SEO
+  id: seo
   icon: partnerships.svg
-  description: Coming soon
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: seo
+      description: seo
+      questions:
+        - question: Promoting my website
+          label: promotion
+
+- name: Mobile Development
+  id: mobiledevelopment
+  icon: partnerships.svg
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: mobile
+      description: mobile
+      questions:
+        - question: Designing an app
+          label: design
+        - question: Building an app
+          label: build
+        - question: Publishing an app on the App store
+          label: app store
+        - question: Selling an app
+          label: selling
+        - question: Making money with in-app purchase
+          label: purchase
+
+- name: Database
+  id: database
+  icon: partnerships.svg
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: database
+      description: database
+      questions:
+        - question: Picking the right database service
+          label: service
+        - question: Picking the right model to store and manage data
+          label: model
+        - question: Considering about efficiency 
+          label: efficiency
+
+
+
+- name: Hardware
+  id: hardware
+  icon: partnerships.svg
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: hardware
+      description: hardware
+      questions:
+        - question: Building my first prototype
+          label: prototype
+        - question: Hiring a hardware expert
+          label: expert
+        - question: Building my first  10,000 items
+          label: first 10,000
+
+- name: Cloud Service
+  id: cloud
+  icon: partnerships.svg
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: cloud
+      description: cloud
+      questions:
+        - question: Picking the right cloud provider
+          label: cloud provider
+        - question: Migrating to a different cloud provider
+          label: migrate
+
+
+
+- name: Payment Service
+  id: payment
+  icon: partnerships.svg
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: payment
+      description: payment
+      questions:
+        - question: Using a payment gateway
+          label: gateway
+
+
+- name: Engineering Best Practice
+  id: engineering
+  icon: partnerships.svg
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: payment
+      description: payment
+      questions:
+        - question: Putting in place code review
+          label: code review 
+        - question: Setting up continuous integration
+          label: CI
+        - question: Choosing a programming stack
+          label: stack
+
+- name: Design
+  id: design
+  icon: partnerships.svg
+  description: >
+    Minions ipsum underweaaar tulaliloo poulet tikka masala underweaaar bee do bee do bee do aaaaaah po kass po kass hana dul sae. Hahaha poulet tikka masala tank yuuu! Chasy belloo! Jiji jiji para tú uuuhhh tatata bala tu bananaaaa. Para tú baboiii aaaaaah para tú hahaha poopayee. Jeje tulaliloo gelatooo tulaliloo belloo! Aaaaaah po kass butt bananaaaa. Uuuhhh hana dul sae poulet tikka masala belloo! Potatoooo tulaliloo gelatooo jeje jiji poulet tikka masala gelatooo pepete wiiiii gelatooo wiiiii. Hahaha jeje chasy para tú. 
+  topics:
+    - topic: design
+      description: design
+      questions:
+        - question: Choosing the right model for UX, freelance vs in-house
+          label: model
+        - question: Working with self-serve UX service
+          label: self-serve ux service
+        - question: Choosing a freelance designer
+          label: designer
+        - question: Managing a remote freelance designer
+          label: manage designer
+
+
+
 
 - name: Data Science
   id: datascience
@@ -317,321 +295,3 @@
         - question: Interpreting and communicating what data says. 
           label: interpretation
 
-
-
-- name: Community Engagement
-  id: communityengagement
-  icon: communityengagement.png
-  icon-color: "#A3ABD1"
-  description: >
-   Engagement can build trust and increase the legitimacy of decision-making. But knowing when and how to engage members of a community and under what conditions is hard.
-  topics:
-    - topic:  Identifying goals and participants
-      description: What you can share about setting the stage for a community engagement program.
-      questions:
-        - question: Clearly identifying the rationale, purpose and objectives for community engagement.
-          label: core mission
-        - question: Finding and interpreting relevant legislative and/or policy requirements driving the need for engagement.
-          label: find requirements
-        - question: Identifying who needs to be involved, including all stakeholders affected, impacted or interested in the engagement.
-          label: stakeholder involvement
-
-    - topic: Implementing a community engagement strategy
-      description: What you can share about operationalizing a community engagement program.
-      questions:
-        - question: Identifying and communicating incentives to participate, including anticipated outcomes.
-          label: identify incentives
-        - question: Developing briefing materials and information to inform engagement.
-          label: develop materials
-        - question: Using multiple dialog methods to engage stakeholders.
-          label: multiple dialog
-        - question: Planning and delivering face-to-face deliberation.
-          label: face to face
-        - question: Planning and delivering a deliberative poll.
-          label: deliberative poll
-        - question: Planning and delivering a citizen jury.
-          label: citizen jury
-        - question: Planning and delivering a participatory budgeting process.
-          label: participatory budgeting
-        - question: Planning and delivering a charrette or scenario-planning exercise.
-          label: charette
-        - question: Developing an action/project plan with timeline to implement the engagement.
-          label: action project
-        - question: Ensuring accessibility of the engagement activity.
-          label: accessibility
-
-    - topic: Using online and digital channels to engage stakeholders
-      description: What you can share about effectively using tools to gain input from diverse stakeholders
-      questions:
-        - question: Using social media, digital and online tools to engage stakeholders as a group.
-          label: social media engagement
-        - question: Using social media, digital and online tools to conduct surveys.
-          label: social media surveys
-        - question: Planning and delivering an e-deliberation process like a 21st century town meeting.
-          label: e-deliberation
-        - question: Planning and delivering open space technology.
-          label: open space
-        - question: Using digital and online tools to amplify engagement efforts and increase reach.
-          label: amplify engagement
-        - question: Using digital and online tools to provide feedback to stakeholders.
-          label: online feedback
-
-    - topic: Measuring, evaluating and providing feedback
-      description: What you can share about assessing effectiveness and sharing targeted feedback
-      questions:
-        - question: Capturing and utilising relevant data related to all aspects of engagement.
-          label: capture data
-        - question: Creating tools for providing clear feedback to participants and decision makers.
-          label: provide feedback
-        - question: Clearly and regularly reporting outcomes to participants and stakeholders. 
-          label: report outcome
-
-    - topic: Transforming my organisation
-      description: What you can share about increasing the organizational use of citizen engagement
-      questions:
-        - question: Ensuring that the learnings from a community engagement exercise get used to support continuous improvement within my organisation.
-          label: learnings used
-        - question: Increasing organisational awareness of the value of community engagement.
-          label: organisational awareness
-        - question: Developing and delivering appropriate training for staff across my organisation.
-          label: appropriate training
-
-- name: Lab Design
-  id: lab-design
-  icon: labdesign.svg
-  icon-color: "#50E3C2"
-  description: >
-   Governments are seeking to become more experimental and evidence-based through the creation of internal innovation labs. The growing labs movement is helping to uncover what works in practice.
-  topics:
-    - topic: Lab Creation and Vision
-      description: What you can share about launching a government innovation lab.
-      questions:
-        - question: Articulating the value proposition of my Lab and the need for experimentation
-          label: articulating value proposition
-        - question: Clearly defining the problems that my Lab is supposed to solve, and the assumptions it is going to test
-          label: defining problems and assumptions
-        - question: Identifying the audience to be convinced and how to persuade them to support the Lab 
-          label: pitching the Lab
-        - question: Defining the different products and services my Lab will deliver
-          label: defining products and services
-        - question: Articulating a clear theory of change for my Lab
-          label: theory of change
-
-    - topic: Lab Operations
-      description: What you can share about the organizational mechanics of running a government innovation lab.
-      questions:
-        - question: Defining an engagement model for my Lab vis a vis other parts of my organisation
-          label: engagement model
-        - question: Defining a handover protocol between my Lab and other parts of the organisation
-          label: handover protocol
-        - question: Defining the roles and Terms of Reference staff need for the success of my Lab
-          label: staff roles
-        - question: Costing the services for my Lab and defining a business model that guarantees long term sustainability
-          label: sustainable business model
-        - question: Effectively arguing for the most effective reporting lines and organisational placement for my Lab
-          label: reporting lines and placement
-
-    - topic: Lab Experimentation and Methodology
-      description: What you can share about developing and implementing an experimental methodology for lab work. 
-      questions:
-        - question: Defining metrics for my Lab to demonstrate its impact
-          label: metrics
-        - question: Selecting and implementing the methods that my Lab will promote
-          label: methods
-        - question: Training others in Lab methods and tools
-          label: operations training
-        - question: Managing a Lab project using an agile development approach
-          label: managing projects
-        - question: TrackIng evidence and iterating programs to ensure relevance and generate timely results
-          label: program tracking and result generation
-
-    - topic: Staffing and Resources
-      description: What you can share about managing lab staff and budgets.
-      questions:
-        - question: Effectively recruiting a group of early champions to support the Lab
-          label: recruiting support
-        - question: Managing resources, including people, time and budget to ensure value for investment 
-          label: resource management
-
-    - topic: Capturing, Leveraging and Communicating Results
-      description: What you can share about making use of lab results internally and communicating impacts externally.
-      questions:
-        - question: Developing a portfolio of demonstration projects that can show tangible results even in the face of skepticism
-          label: showing results
-        - question: Researching, piloting and testing new programs based on the insights and knowhow gathered from previous ones
-          label: new program development
-        - question: Capturing, articulating and sharing the narrative around the impact and outcomes of lab programs, i.e. through case studies
-          label: narrative of impact
-
-- name: Crowdsourcing
-  id: crowdsourcing
-  icon: crowdsourcing.svg
-  description: >
-   Crowdsourcing uses communications technologies to enable institutions to leverage the wisdom of the crowd. By enabling institutions to get more distributed and diverse collaboration in ways never before possible, they can improve a project’s efficiency, legitimacy and diversity.
-  topics:
-    - topic: Determining the Crowd
-      description: What can you share about identifying, enrolling, and developing a crowd
-      questions:
-        - question: Identifying the crowd I want to participate (e.g. general public, informed experts, participants with a particular skill)
-          label: identifying crowd
-        - question: Enabling members of the crowd to participate (e.g. creating profiles, defining roles, sharing supporting materials)
-          label: enable participation
-        - question:  Encouraging ongoing participation 
-          label: encourage participation
-
-    - topic: Determining the Activity
-      description:  What can you share about the type of activities the crowd could perform
-      questions:
-        - question:  Asking the crowd to perform a specific task (e.g. design a product, tag photos, classify information, analyse information)
-          label: asking for specific task
-        - question: Asking the crowd to collect and share data (e.g. report a water leak, a case of corruption, quality of the air in their city)
-          label: asking to collect and share data
-        - question: Asking the crowd for their opinion (e.g. vote on a design contest, opine on a policy recommendation)
-          label: asking for opinion
-        - question: Asking the crowd for new ideas (e.g. solve a public problem, generate ideas to reduce unnecessary government spending)
-          label: asking for new ideas
-        - question:  Asking the crowd for funds (e.g. donate money to help build a park, funding a municipal bond)
-          label: asking for funds
-        - question:  Asking the crowd for referrals (e.g. share information with their personal or professional networks, provide recommendations of other members of the crowd to include in an initiative) 
-          label: asking for referrals
-
-    - topic: Determining a Successful Crowdsourcing Strategy
-      description: What can you share about defining if crowdsourcing is the right process for a given situation
-      questions:
-        - question: Deciding when to use crowdsourcing rather than other options like the conventional top-down process of decision-making
-          label: when to crowdsource
-        - question: Identifying the gaps in expertise that can be minimised through the participation of the crowd
-          label: identify gaps in expertise
-        - question: Designing a crowdsourcing strategy that provides value to the participants either through the outcome or the participation itself 
-          label: strategy that provides value
-        - question: Connecting the efforts of the crowd to enable them to aggregate and build off each other’s work
-          label: connect crowd efforts
-        - question: Determining the institutional resources required to implement a successful crowdsourcing initiative
-          label: determine requisite institutional resources
-        - question: Assessing the potential time and resources required from the crowd in order to participate
-          label: assess time and resources required
-        - question: Assessing the effectiveness of using crowdsourcing
-          label: assess effectiveness
-
-    - topic: Providing the Right Incentives
-      description: What can you share about providing the right incentives for participation
-      questions:
-        - question: Defining the scope of the crowd’s participation
-          label: defining scope
-        - question: Providing feedback for participation 
-          label: providing feedback
-        - question: Deciding whether to use financial or non-financial incentives (or a mix of incentives)
-          label: Financial vs non-financial incentives
-        - question: Determining whether the use of a competition is beneficial 
-          label: determine benefits of competition
-        - question: Determining whether the use of reputation systems is beneficial 
-          label: determine benefits of reputation systems
-        - question: Using altruistic or community building incentives
-          label: Altruistic incentives
-        - question: Designing recreational incentives (i.e. gamification)
-          label: design recreational incentives
-        - question: Identifying which particular incentive is working and why
-          label: Indentify effective incentives
-        - question: Monitoring and adapting the incentives at the individual or crowd levels  
-          label: Monitor and adapt incentives
-        - question: Tackling the possible credibility and authenticity issues involved in the input received from the crowd
-          label: credibility and authenticity issues
-
-    - topic: Implementation and Tools
-      description: What can you share about setting up, running and managing a crowdsourcing effort
-      questions:
-        - question: Creating a plan for running the crowdsourcing project with defined milestones
-          label: defined milestones
-        - question: Targeting the right audience to attract the desired crowd and participation
-          label: target right audience
-        - question: Choosing a platform to do the crowdsourcing project
-          label: choosing platform
-        - question: Accessing outside contractors and/or intermediaries to support the design and implementation of the desired crowdsourcing platform 
-          label: accessing outside support
-        - question: Building a team within an institution that supports the project from initial idea through implementation 
-          label: team-building
-        - question: Developing a communication strategy to target the right audience
-          label: developing communication strategy
-        - question: Connecting members of the crowd to each other when appropriate
-          label: connecting members of crowd
-        - question: Preparing to utilize or implement the output of the crowd 
-          label: preparing for output
-
-    - topic: Quality Control Mechanisms
-      description: What can you share about defining the right mechanism of quality control
-      questions:
-        - question: Ensuring high-quality and accurate participation from the crowd
-          label: ensuring high-quality participation
-        - question: Leveraging crowd participants to evaluate crowd contributions (through voting, rating or peer-review)
-          label: leverage crowd evaluation
-
-    - topic: Ethical and Legal Concerns
-      description: What can you share about addressing potential legal and ethical tensions
-      questions:
-        - question: Determining ownership and copyright of crowd contributions
-          label: determining ownership
-        - question: Navigating governmental endorsement and privacy concerns
-          label: governmental endorsement and privacy
-        - question: Navigating potential tensions regarding free speech and public record laws
-          label: free speech and public record tensions
-          
-          
-- name: 'Nudges: RCTs'
-  id: rcts
-  icon: opendata.svg
-  icon-color: "#E86B5F"
-  description: >
-   Randomized Control Trials (RCTs) — comparing the outcomes of an intervention with a particular group against another randomly selected group that does not receive the intervention — are a rigorous and inexpensive way to find what works. Increasingly, public institutions are testing the effectiveness of services, for example, by delivering it two different ways.
-  topics:
-
-    - topic: Setting Up an Evaluation
-      description: How to build quantitative evaluation into a program from the outset and identify the right things to test.
-      questions:
-        - question: Identifying an empirically testable question.
-          label: testable question
-        - question: Identifying an evaluation model that allows for causal inference as to whether the test worked
-          label: evaluation model
-        - question: Identifying data to evaluate using the evaluation model
-          label: testable data
-        - question: Getting organizational approval for conducting an evaluation of this type
-          label: organizational approval
-        - question: Embedding evaluation within the program without undue disruption
-          label: embedding evaluation
-          
-    - topic: Designing and Implementing an Evaluation
-      description: How to design and launch an evaluation. 
-      questions:
-        - question: Using randomization to create a robust control group for comparison
-          label: randomization
-        - question: Ensuring that evaluation is statistically significant
-          label: statistical significance
-        - question: Working with small sample sizes and imperfect conditions
-          label: real world testing
-        - question: Choosing which group gets which version of the intervention
-          label: assignment into groups
-        - question: Translating the technical aspects of the evaluation into practical instructions for those involved in implementation
-          label: implementation instructions
-        - question: Determining the right method for analysing the results
-          label: analysis method
-        - question: Writing a credible plan for analysing the data in advance of launching
-          label: analysis plan
-        - question: Monitoring data quality throughout the trial
-          label: data quality
-        - question: Documenting and accounting for any contamination that happens in the implementation 
-          label: contamination
-        - question: Handling data safely and securely
-          label: safe data handling
-          
-    - topic: Measuring impact
-      description: How to translate the findings from the experiment into better policies and services.
-      questions:
-        - question: Cleaning the data that comes in
-          label: cleaning data
-        - question: Analyzing the results and performing robustness checks
-          label: analyzing results
-        - question: Interpreting the results and reporting the findings in an accessible and accurate manner
-          label: interpreting results
-        - question: Making key concepts such as statistical significance and Type I and II errors understandable to non-statisticians
-          label: nontechnical communications
-        - question: Helping the organisation use the results to make strategic decisions about how to work and invest in future
-          label: strategic decisions
